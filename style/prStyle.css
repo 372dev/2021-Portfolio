@@ -28,6 +28,7 @@
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
+  margin-bottom: 5rem;
 }
 
 .project img {
@@ -72,4 +73,9 @@
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
+}
+
+.imgBorder {
+  border: 2px solid gainsboro;
+  border-radius: 2rem;
 }
