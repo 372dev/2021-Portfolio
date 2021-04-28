@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sangchul Park portfolio - Jr. Web Developer"
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="../style/common.css" />
+    <link rel="stylesheet" href="../style/media.css" />
+    <link rel="stylesheet" href="../style/prStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+    ></script>
+    <title>Sangchul Park - Portfolio</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <div class="logo">
+          <img src="../icons/code.svg" alt="logo" class="logoElements" />
+          <h1 class="logoElements">박상철</h1>
+        </div>
+        <ul>
+          <li><a href="/_Home/korHome.html">Home</a></li>
+          <li><a class="active" href="/_Projects/korPr.html">Projects</a></li>
+          <li><a href="/_Home/engHome.html">English(영어)</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="projects">
+        <div class="project">
+          <h2>컬쳐 메이트<br />스프링 MVC 프로젝트</h2>
+          <a href="/_Projects/_CM/korCM.html"
+            ><img src="../img/cmMain.jpg" alt="Culture Mate"
+          /></a>
+        </div>
+        <div class="project">
+          <h2>베지테리언 프랜즈<br />자바 MVC 프로젝트</h2>
+          <a href="/_Projects/_VF/korVF.html"
+            ><img src="../img/vfMain.jpg" alt="Vegetarian Friends"
+          /></a>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project">
+          <h2>헌정 페이지 - 뱁새<br />반응형 웹 미니 프로젝트</h2>
+          <a href="/_Projects/_TP/korTP.html"
+            ><img src="../img/tpMain.jpg" alt="Tribute"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h4>Portfolio &copy; 2021</h4>
+      <ul>
+        <li>372dev@gmail.com</li>
+      </ul>
+    </footer>
+    <script>
+      $(".logoElements").click(function () {
+        $(location).attr("href", "/_Home/korHome.html");
+      });
+    </script>
+  </body>
+</html>

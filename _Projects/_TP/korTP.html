@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sangchul Park portfolio - Jr. Web Developer"
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="../../style/common.css" />
+    <link rel="stylesheet" href="../../style/media.css" />
+    <link rel="stylesheet" href="../../style/prStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+    ></script>
+    <title>Sangchul Park - Portfolio</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <div class="logo">
+          <img src="../../icons/code.svg" alt="logo" class="logoElements" />
+          <h1 class="logoElements">박상철</h1>
+        </div>
+        <ul>
+          <li><a href="/_Home/korHome.html">Home</a></li>
+          <li><a class="active" href="/_Projects/korPr.html">Projects</a></li>
+          <li><a href="/_Home/engHome.html">English(영어)</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container">
+      <hr class="marginTop" />
+      <div class="projectIntro">
+        <div class="projectTable">
+          <table>
+            <tr>
+              <th>프로젝트 이름</th>
+              <td>헌정 페이지 - 뱁새</td>
+            </tr>
+            <tr>
+              <th>GitHub</th>
+              <th>
+                <a
+                  class="regSizeText"
+                  href="https://github.com/372dev/Project_Tribute_Vinous-throated_Parrotbill"
+                  >https://github.com/372dev/Project<br />_Tribute_Vinous-throated_Parrotbill</a
+                >
+              </th>
+            </tr>
+            <tr>
+              <th>프로젝트 기간</th>
+              <td>2020년 8월 28일~2020년 9월 15일</td>
+            </tr>
+            <tr>
+              <th>프로젝트 팀</th>
+              <td>개인프로젝트</td>
+            </tr>
+            <tr>
+              <th>활용한 기술</th>
+              <td>HTML, CSS, JavaScript</td>
+            </tr>
+          </table>
+        </div>
+        <div class="projectSummary">
+          <div>
+            <ol>
+              <li>
+                <h3>프로젝트 개요</h3>
+              </li>
+              <li>
+                뱁새에게 바치는 헌정 페이지를 구현하는 개인 프로젝트입니다.
+              </li>
+              <li class="strongText">
+                바닐라 자바스크립트, 순수 CSS 활용으로만 반응형 웹을 구현해보기
+                위한 미니 프로젝트입니다.
+              </li>
+              <li>반응형 웹 디자인이 적용된 정적 프론트 페이지입니다.</li>
+              <li>
+                구현된 페이지는 netlify를 통해 배포되었으며,
+                <a href="https://372project01.netlify.app/" target="_blank"
+                  >이곳을</a
+                >
+                클릭하여 접근이 가능합니다.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <hr class="marginBottom" />
+      <div class="projects">
+        <div class="project">
+          <h2>Page 1</h2>
+          <a href="../../img/tpPage01.jpg" target="_blank"
+            ><img src="../../img/tpThumbnail01.jpg" alt="TributePage page 1"
+          /></a>
+        </div>
+        <div class="project description">
+          <div>
+            <ol>
+              <li>
+                <h4>반응형 웹 디자인</h4>
+              </li>
+              <li>
+                사용자 기기 화면 사이즈에 따라 요소 크기와 배치를 달리 하도록 반응형으로 디자인 했습니다.
+              </li>
+              <li>
+                @media 태그를 사용하여 세가지 화면 사이즈로 구분하여 구현했습니다.
+                <ol>
+                  <li>모바일 기기(max-width: 1000px)</li>
+                  <li>태블릿 PC(min-width: 1001px)</li>
+                  <li>PC(min-width: 1481px)</li>
+                </ol>
+              </li>
+          </div>
+        </div>
+      </div>
+      <hr class="marginTop marginBottom" />
+      <div class="projects">
+        <div class="project">
+          <h2>Page 2</h2>
+          <a href="../../img/tpPage02.jpg" target="_blank"
+            ><img src="../../img/tpThumbnail02.jpg" alt="CultureMate page 2"
+          /></a>
+        </div>
+        <div class="project description">
+          <div>
+            <ol>
+              <li>
+                <h4>리스트 메뉴 / 햄버거 메뉴</h4>
+              </li>
+              <li>
+                사용자 기기의 화면 사이즈에 따라 메뉴 구성을 리스트 메뉴에서
+                햄버거 메뉴로 변경되게 설정했습니다.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <hr class="marginTop marginBottom" />
+      <div class="projects">
+        <div class="project">
+          <h2>Page 3</h2>
+          <a href="../../img/tpPage03.jpg" target="_blank"
+            ><img src="../../img/tpThumbnail03.jpg" alt="CultureMate page 3"
+          /></a>
+        </div>
+        <div class="project description">
+          <div>
+            <ol>
+              <li>
+                <h4>페이지 언어 전환</h4>
+              </li>
+              <li>버튼 클릭시 화면의 구성 언어가 변경되게 구현했습니다.</li>
+              <li>
+                이번 프로젝트에서는 한국어와 영어 요소를 함께 페이지에 포함시킨 이후
+                display 설정을 토글하는 방식으로 구현했습니다.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h4>Portfolio &copy; 2021</h4>
+      <ul>
+        <li>372dev@gmail.com</li>
+      </ul>
+    </footer>
+    <script>
+      $(".logoElements").click(function () {
+        $(location).attr("href", "/_Home/korHome.html");
+      });
+    </script>
+  </body>
+</html>

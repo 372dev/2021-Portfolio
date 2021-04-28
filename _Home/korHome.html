@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sangchul Park portfolio - Jr. Web Developer"
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="../style/common.css" />
+    <link rel="stylesheet" href="../style/media.css" />
+    <link rel="stylesheet" href="../style/inStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+    ></script>
+    <title>Sangchul Park - Portfolio</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <div class="logo">
+          <img src="../icons/code.svg" alt="logo" class="logoElements" />
+          <h1 class="logoElements">박상철</h1>
+        </div>
+        <ul>
+          <li><a class="active" href="/_Home/korHome.html">Home</a></li>
+          <li><a href="/_Projects/korPr.html">Projects</a></li>
+          <li><a href="/_Home/engHome.html">English(영어)</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro">
+      <div class="intro-text">
+        <h2>박상철</h2>
+        <h3>웹 개발자</h3>
+        <p>
+          진취적이고 끈질긴 신입 개발자 박상철입니다<br />
+          현장에서 한 사람의 몫을 해낼 수 있도록 꾸준히 발전하겠습니다
+        </p>
+        <div class="intro-social">
+          <a href="https://github.com/372dev"
+            ><img src="../icons/github.svg" alt="github-372dev-link"
+          /></a>
+          <!--
+          <a href="#"
+            ><img src="icons/linked-in.svg" alt="linkedin-social-link"
+          /></a> -->
+        </div>
+      </div>
+      <div class="intro-images"></div>
+    </section>
+    <footer>
+      <h4>Portfolio &copy; 2021</h4>
+      <ul>
+        <li>372dev@gmail.com</li>
+      </ul>
+    </footer>
+    <script>
+      $(".logoElements").click(function () {
+        $(location).attr("href", "/_Home/korHome.html");
+      });
+    </script>
+  </body>
+</html>

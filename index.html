@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style/common.css" />
+    <link rel="stylesheet" href="../../style/media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+    ></script>
+    <title>Sangchul Park - Portfolio</title>
+  </head>
+  <body>
+    <div class="indexContainer">
+      <div class="indexCard">
+        <div>
+          <img src="../../icons/code.svg" alt="logo" />
+          <h1 class="korLinkElements">박상철<br />포트폴리오</h1>
+        </div>
+        <ul>
+          <li class="active korLinkElements">한국어(Kor)</li>
+        </ul>
+      </div>
+      <div class="indexCard">
+        <div>
+          <img src="../../icons/code.svg" alt="logo" />
+          <h1 class="engLinkElements">Sangchul Park<br />Portfolio</h1>
+        </div>
+        <ul>
+          <li class="active engLinkElements">English(영어)</li>
+          <ol>
+            <li>(Work in progress)</li>
+          </ol>
+        </ul>
+      </div>
+    </div>
+    <script>
+      $(".korLinkElements").click(function () {
+        $(location).attr("href", "/_Home/korHome.html");
+      });
+    </script>
+  </body>
+</html>
