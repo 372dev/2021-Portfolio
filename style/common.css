@@ -245,3 +245,10 @@ footer h4 {
 .indexCard > * {
   margin: 3rem;
 }
+
+.hit {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
